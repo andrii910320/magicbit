@@ -1,0 +1,26 @@
+.test{
+  background-color: #AF8F6F;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  gap: 1rem
+}
+.el{
+  padding: 1rem;
+  max-width: 30rem;
+  border-radius: 1.2rem;
+  border: none;
+}
+button{
+  background-color: #74512D;
+
+}
+button:hover{
+  background-color: #543310;
+
+}
+.error{
+  color: red;
+  margin-top: -0.9rem;
+}
