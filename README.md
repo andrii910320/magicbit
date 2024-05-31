@@ -1,4 +1,4 @@
-# Project Name
+# Test task for Magicbit
 
 This project is a web application built using Node.js for the backend and React.js for the frontend. The application aims to provide a seamless user experience with a robust backend and an interactive frontend.
 
@@ -8,7 +8,6 @@ This project is a web application built using Node.js for the backend and React.
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
 - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
@@ -27,8 +26,7 @@ To get started with this project, follow the instructions below.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/andrii910320/magicbit.git
 ```
 
 ## Backend Setup
@@ -50,21 +48,13 @@ cd your-repo
    Create a `.env` file in the `backend` directory and add the following:
 
    ```env
-   PORT=5000
-   DB_CONNECTION_STRING=your_database_connection_string
-   JWT_SECRET=your_jwt_secret
+   PORT=8888
    ```
 
-4. Run database migrations (if applicable):
+4. Start the backend server:
 
    ```bash
-   npm run migrate
-   ```
-
-5. Start the backend server:
-
-   ```bash
-   npm start
+   npm run start
    ```
 
 ## Frontend Setup
@@ -92,7 +82,7 @@ cd your-repo
 4. Start the frontend development server:
 
    ```bash
-   npm start
+   npm run start
    ```
 
 ## Running the Application
@@ -115,39 +105,9 @@ To run the application, you need to start both the backend and the frontend serv
 
 3. Open your browser and go to `http://localhost:3000` to view the application.
 
-## Project Structure
-
-```
-your-repo/
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── utils/
-│   │   ├── app.js
-│   │   ├── server.js
-│   └── package.json
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── App.js
-│   │   ├── index.js
-│   └── package.json
-├── README.md
-└── .gitignore
-```
-
 ## Features
 
-- User authentication and authorization
-- CRUD operations
-- Responsive UI
-- Integration with a database
-- RESTful API
+-Find user by email and number
 
 ## Technologies Used
 
@@ -155,16 +115,11 @@ your-repo/
 
 - Node.js
 - Express.js
-- MongoDB (or any other database)
-- Mongoose (or any other ORM)
-- JWT for authentication
 
 ### Frontend
 
 - React.js
-- Redux for state management
 - Axios for API calls
-- React Router for routing
 
 ## Contributing
 
