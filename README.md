@@ -71,15 +71,7 @@ git clone https://github.com/andrii910320/magicbit.git
    npm install
    ```
 
-3. Set up environment variables:
-
-   Create a `.env` file in the `frontend` directory and add the following:
-
-   ```env
-   REACT_APP_API_URL=http://localhost:5000
-   ```
-
-4. Start the frontend development server:
+3. Start the frontend development server:
 
    ```bash
    npm run start
