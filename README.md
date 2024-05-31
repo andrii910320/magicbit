@@ -74,7 +74,7 @@ git clone https://github.com/andrii910320/magicbit.git
 3. Start the frontend development server:
 
    ```bash
- npm run dev
+   npm run start
    ```
 
 ## Running the Application
