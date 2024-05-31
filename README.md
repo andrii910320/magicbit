@@ -54,7 +54,7 @@ git clone https://github.com/andrii910320/magicbit.git
 4. Start the backend server:
 
    ```bash
-   npm run start
+   npm run dev
    ```
 
 ## Frontend Setup
@@ -74,7 +74,7 @@ git clone https://github.com/andrii910320/magicbit.git
 3. Start the frontend development server:
 
    ```bash
-   npm run start
+ npm run dev
    ```
 
 ## Running the Application
@@ -85,14 +85,14 @@ To run the application, you need to start both the backend and the frontend serv
 
    ```bash
    cd backend
-   npm start
+   npm run start
    ```
 
 2. In another terminal, navigate to the `frontend` directory and start the development server:
 
    ```bash
    cd frontend
-   npm start
+   npm run start
    ```
 
 3. Open your browser and go to `http://localhost:3000` to view the application.
